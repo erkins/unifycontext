@@ -9,6 +9,7 @@ import (
 type Cancel struct {
 }
 
+// Test Comment
 func (c *Cancel) Error() string {
 	return "context canceled"
 }
